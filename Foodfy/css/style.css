@@ -1,0 +1,101 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";
+
+* {
+    margin: 0 24px;
+    padding: 12px 24px;
+    border: 0;
+    
+}
+
+body{
+    background:whitesmoke;
+    font-family: Roboto, sans-serif;
+}
+
+header{
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    color: #111111;
+    line-height: 19px;
+    display: flex;
+    margin-bottom: 36px;
+}
+
+header img {
+    margin: 0;
+    padding-left: 0;
+}
+
+.links a {
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    color: #111111;
+    text-decoration: none;
+    margin:30px auto;
+}
+.links a:hover{
+    color:rgb(102, 100, 100);
+    transition: color 200ms;
+}
+
+#wrapper {
+    background: #FBDFDB;
+    border-radius: 30px;
+    height: 366px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#wrapper_content h1 {
+    font-family: Roboto-Bold;
+    font-size: 32px;
+    color: #111111;
+    line-height: 38px;
+    size: 305px;
+    padding: 0;
+    margin: 107px 259px 10px 60px;
+    width: 305px;
+}
+
+#wrapper_content p {
+    opacity: 0.7;
+    font-family: Roboto-Regular;
+    font-size: 18px;
+    color: #000000;
+    line-height: 28px;
+    padding: 0;
+    height: 84px;
+    width: 316px;
+    margin: 0px 117px 10px 60px;
+}
+
+#wrapper_img {
+    height: 300px;
+    width: 216px;
+    padding: 0;
+    margin: 46px 100px 0 0;
+}
+
+#text {
+    font-family: Roboto-Bold;
+    font-size: 24px;
+    color: #111111;
+    line-height: 28px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    size: 24px;
+    padding-left: 0;
+}
+
+/*==Receitas==*/
+.receitas {
+    border-radius: 15px;
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
