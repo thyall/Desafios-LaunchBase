@@ -100,21 +100,19 @@ header {
     border: 1px solid rgba(0, 0, 0, 0.4);
     border-radius: 8px;
     max-width: 100%;
+    margin-bottom: 32px;
     padding: 10px;
+    display:grid;
     background: url(https://skylab.rocketseat.com.br/static/media/MountainsOpacity.a4edba24.png) 0% 0% / cover fixed, rgba(0, 0, 0, 0.4);
     background-image: url(https://skylab.rocketseat.com.br/static/media/MountainsOpacity.a4edba24.png), initial;
 }
-
-.curso_image-container img{
-    width: 100%;
-    margin: 0 auto;
-    max-height: 120px;
-    padding-top: 20px;
-}
-
 .curso_content {
     text-align: center;
 }
+.curso_info {
+    align-items: center;
+}
+
 .curso_content,
 .curso_info {
     padding: 24px;

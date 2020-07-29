@@ -12,44 +12,22 @@
     </div>
 
     <section class="cursos">
-        <div class="curso" id="starter">
+        
+        {% for item in  items %}
+        <div class="curso" id={{item.id}}>
             <div class="curso_image">
-                <img src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/assets/starter.svg" alt="Logo">
+                <img src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/assets/{{item.id}}.svg" alt="Imagem de {{item.id}}">
             </div>
             <div class="curso_content">
-                <p>Starter</p>
+                <p>{{item.title}}</p>
             </div>
             <div class="curso_info">
-                <p>5 Módulos</p>
-                <p class="curso_price">Free</p>
+                <p>{{item.modulos}}</p>
+                <p class="curso_price">{{item.price}}</p>
             </div>
         </div>
+        {% endfor %}
 
-        <div class="curso" id="launchbase">
-            <div class="curso_image">
-                <img src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/assets/launchbase.svg" alt="Logo">
-            </div>
-            <div class="curso_content">
-                <p>LaunchBase</p>
-            </div>
-            <div class="curso_info">
-                <p>8 Módulos</p>
-                <p class="curso_price">Pago</p>
-            </div>
-        </div>
-
-        <div class="curso" , id="gostack">
-            <div class="curso_image">
-                <img src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/assets/gostack.svg" alt="Logo">
-            </div>
-            <div class="curso_content">
-                <p>GoStack</p>
-            </div>
-            <div class="curso_info">
-                <p>A definir</p>
-                <p class="curso_price">Pago</p>
-            </div>
-        </div>
     </section>
 
     <div class="modal-overlay">
