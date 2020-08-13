@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        {% block head %}
+            <title>Rocketseat</title>
+        {%endblock%}
+
+        <link rel="stylesheet" href="/styles-index.css">
+    </head>
+    <body>
+        <header>
+            <div class="links">
+                <a href="/" class="active">Teachers</a>
+                <a href="/studntes">Students</a>
+            </div>
+        </header>
+
+        {% block content %}{% endblock %}
+
+    </body>    
+</html>
