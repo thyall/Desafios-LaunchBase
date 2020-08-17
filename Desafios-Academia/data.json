@@ -1,0 +1,22 @@
+{
+  "instructor": [
+    {
+      "id": 1,
+      "name": "Thyall Dgreville  Santiago de Azevedo ",
+      "avatar_url": "https://google.com",
+      "birth": 833846400000,
+      "gender": "M",
+      "services": "muaithay",
+      "created_at": 1597688836684
+    },
+    {
+      "id": 2,
+      "name": "tiel",
+      "avatar_url": "https://google.com",
+      "birth": 91778313600000,
+      "gender": "F",
+      "services": "fefefefefe, fefefefe",
+      "created_at": 1597688868227
+    }
+  ]
+}
