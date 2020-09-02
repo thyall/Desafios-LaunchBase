@@ -37,22 +37,13 @@
       "created_at": 1598374255105
     },
     {
-      "id": 5,
-      "name": "fdsf",
+      "id": "5",
+      "name": "putBrabo",
       "avatar_url": "https://google.com",
       "birth": 454896000000,
       "gender": "M",
       "services": "asdsa,dsadsa,dsa",
       "created_at": 1598374334708
-    },
-    {
-      "id": 6,
-      "name": "kkkkkk",
-      "avatar_url": "http://www.google.com",
-      "birth": 949363200000,
-      "gender": "F",
-      "services": "muita fé, coco",
-      "created_at": 1598461377619
     }
   ]
 }
